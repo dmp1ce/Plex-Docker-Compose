@@ -1,0 +1,7 @@
+plex:
+  image: needo/plex
+  net: host
+  volumes:
+    - /etc/localtime:/etc/localtime:ro
+    - config:/config
+    - data:/data
